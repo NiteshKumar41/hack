@@ -1,0 +1,28 @@
+
+    .card{
+        /* margin-left: 60%; */
+        margin-right: 10%;
+        margin-top: 10%;
+        background-color: white;
+        
+    }
+    .container-fluid{
+        background-color: #192c3f
+        !important;
+    }
+    img{    margin: 46px 43px;
+        height: 10rem;
+        width: 17rem;
+    }
+ .text{
+     font-size: 25px;
+     color: white;
+    margin: 0px 75px;
+ }
+ .lorem{    font-size: 12px;
+    color: white;
+    margin: 0px 75px;
+ }
+    
+
+    

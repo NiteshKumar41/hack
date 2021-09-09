@@ -1,0 +1,53 @@
+.card{
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    /* background-color: #007bff; */
+    background-color: transparent !important;
+}
+
+.navv ul{
+    /* //   max-height: 120px; */
+    
+        display: flex;
+      list-style: none;
+     
+      padding-left: 0px;
+     margin-bottom: -5px;
+      margin-bottom: 0px;
+   
+
+  }
+  .nav-link{
+      text-align: center;
+  }
+  .navv ul li{
+text-align:center;
+/* // width: 155px;
+// height: 17px; */
+margin-top: 10px;
+left: 0px;
+top: 2px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #7F7F7F;
+
+  }
+  .navv ul li a{
+      /* padding-left: 10px;
+      padding-right: 10px; */
+      width: 151px;
+      font-size: 14px;
+  }
+

@@ -1,0 +1,15 @@
+
+.container {
+    margin-top: 10%;
+    padding: 10px 49px;
+}
+label{
+    font-size: 10px;
+    font-family: Comfortaa;
+}
+.container-sm{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+<div class="container">
+    <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email/Mobile Number</label>
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" ngModel placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">password</label>
+        <input type="password" class="form-control" id="exampleFormControlInput1" name="password" ngModel placeholder="name@example.com">   
+      </div>
+      <br>
+      <div class="container-sm">
+        <button class="btn btn-primary" type="submit" >Log in </button>
+      </div>
+    </form>
+  </div>
