@@ -5,12 +5,10 @@
 
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    /* background-color: #007bff; */
-    background-color: transparent !important;
-}
 
+.navv{
+    margin-top: 30px;
+}
 .navv ul{
     /* //   max-height: 120px; */
     
@@ -38,10 +36,12 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
+
+
 /* identical to box height */
 
 
-color: #7F7F7F;
+/* color: #7F7F7F; */
 
   }
   .navv ul li a{
@@ -49,5 +49,14 @@ color: #7F7F7F;
       padding-right: 10px; */
       width: 151px;
       font-size: 14px;
+      
+    
   }
 
+  .active{
+      color: #192c3f;
+      border-bottom: #192c3f;
+  }
+.noactive{
+    color: #7F7F7F;
+}

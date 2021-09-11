@@ -1,9 +1,10 @@
 
     .card{
-        /* margin-left: 60%; */
+      /* margin-left: 60%; */
         margin-right: 10%;
         margin-top: 10%;
         background-color: white;
+        font-family: Comfortaa;
         
     }
     .container-fluid{
@@ -24,5 +25,15 @@
     margin: 0px 75px;
  }
     
+ @media screen and (max-width: 767px){
+    .card{
+        /* margin-left: 60%; */
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10%;
+        background-color: white;
+        
+    }
+ }
 
     
